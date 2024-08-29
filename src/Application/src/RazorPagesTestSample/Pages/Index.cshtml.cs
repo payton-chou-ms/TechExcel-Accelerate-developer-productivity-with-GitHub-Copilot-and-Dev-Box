@@ -30,7 +30,7 @@ namespace RazorPagesTestSample.Pages
         #region snippet1
         public async Task OnGetAsync()
         {
-            Messages = await _db.GetMessagesAsync();
+            Messages =  (IList<Message>)await _db.GetMessagesAsync();
         }
         #endregion
 
