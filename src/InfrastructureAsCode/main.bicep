@@ -24,7 +24,7 @@ resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2021-12
     }
     retentionInDays: 90
     workspaceCapping: {
-      dailyQuotaGb: 1      az account show
+      dailyQuotaGb: 1
     }
   }
 }
